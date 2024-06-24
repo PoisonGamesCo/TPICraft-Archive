@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "T": {
+      "item": "projecte:transmutation_tablet"
+    },
+    "A": {
+      "item": "ae2:annihilation_core"
+    },
+    "F": {
+      "item": "ae2:formation_core"
+    }
+  },
+  "pattern": ["ITI", "A F", "ITI"],
+  "result": {
+    "item": "appliede:emc_interface"
+  },
+  "show_notification": true
+}
