@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: Applied Energistics 2
-Specification-Vendor: TeamAppliedEnergistics
-Specification-Version: 15.2.4
-Implementation-Title: Applied-Energistics-2
-Implementation-Version: 15.2.4
-Implementation-Vendor: TeamAppliedEnergistics
-MixinConfigs: ae2.mixins.json
-

@@ -1,9 +1,0 @@
-{
-  "type": "ae2:charger",
-  "ingredient": {
-    "item": "appflux:redstone_crystal"
-  },
-  "result": {
-    "item": "appflux:charged_redstone"
-  }
-}

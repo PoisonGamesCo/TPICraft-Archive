@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#is_forest",
-  "features": "allthefood:tomato_plant_patch",
-  "step": "vegetal_decoration"
-}

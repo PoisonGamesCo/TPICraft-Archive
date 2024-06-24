@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "allthefood:block/fig_stage2"
-  },
-  "render_type": "cutout"
-}

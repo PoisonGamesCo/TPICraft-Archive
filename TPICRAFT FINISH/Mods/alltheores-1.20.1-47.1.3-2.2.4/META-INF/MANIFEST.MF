@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: alltheores
-Specification-Vendor: thevortex, whatthedrunk
-Specification-Version: 1
-Implementation-Title: AllTheOres
-Implementation-Version: 2.2.4
-Implementation-Vendor: thevortex, whatthedrunk
-Implementation-Timestamp: 2024-05-16T09:39:33-0600
-
