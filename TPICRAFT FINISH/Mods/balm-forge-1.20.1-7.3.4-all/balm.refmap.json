@@ -1,0 +1,132 @@
+{
+  "mappings": {
+    "net/blay09/mods/balm/mixin/ImageButtonAccessor": {
+      "resourceLocation": "f_94223_:Lnet/minecraft/resources/ResourceLocation;"
+    },
+    "net/blay09/mods/balm/mixin/StemBlockMixin": {
+      "mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/block/StemBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "net/blay09/mods/balm/mixin/ScreenAccessor": {
+      "renderables": "f_169369_:Ljava/util/List;",
+      "children": "f_96540_:Ljava/util/List;",
+      "narratables": "f_169368_:Ljava/util/List;"
+    },
+    "net/blay09/mods/balm/mixin/MinecraftMixin": {
+      "run()V": "Lnet/minecraft/client/Minecraft;m_91374_()V"
+    },
+    "net/blay09/mods/balm/mixin/EntityMixin": {
+      "saveWithoutId(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;": "Lnet/minecraft/world/entity/Entity;m_20240_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+      "load(Lnet/minecraft/nbt/CompoundTag;)V": "Lnet/minecraft/world/entity/Entity;m_20258_(Lnet/minecraft/nbt/CompoundTag;)V"
+    },
+    "net/blay09/mods/balm/mixin/ReloadableServerResourcesMixin": {
+      "loadResources(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess$Frozen;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/Commands$CommandSelection;ILjava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/server/ReloadableServerResources;m_247740_(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess$Frozen;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/Commands$CommandSelection;ILjava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;"
+    },
+    "net/blay09/mods/balm/mixin/KeyMappingAccessor": {
+      "key": "f_90816_:Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+    },
+    "net/blay09/mods/balm/mixin/SlotAccessor": {
+      "x": "f_40220_:I",
+      "y": "f_40221_:I"
+    },
+    "net/blay09/mods/balm/mixin/LootTableMixin": {
+      "getRandomItems(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;": "Lnet/minecraft/world/level/storage/loot/LootTable;m_230922_(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;"
+    },
+    "net/blay09/mods/balm/mixin/MouseHandlerAccessor": {
+      "ypos": "f_91508_:D",
+      "xpos": "f_91507_:D"
+    },
+    "net/blay09/mods/balm/mixin/PlayerListMixin": {
+      "placeNewPlayer": "Lnet/minecraft/server/players/PlayerList;m_11261_(Lnet/minecraft/network/Connection;Lnet/minecraft/server/level/ServerPlayer;)V"
+    },
+    "net/blay09/mods/balm/mixin/AbstractContainerScreenAccessor": {
+      "leftPos": "f_97735_:I",
+      "imageWidth": "f_97726_:I",
+      "hoveredSlot": "f_97734_:Lnet/minecraft/world/inventory/Slot;",
+      "isHovering": "m_97774_(Lnet/minecraft/world/inventory/Slot;DD)Z",
+      "topPos": "f_97736_:I",
+      "imageHeight": "f_97727_:I",
+      "renderSlot": "m_280092_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/inventory/Slot;)V"
+    },
+    "net/blay09/mods/balm/mixin/CheckboxAccessor": {
+      "selected": "f_93822_:Z"
+    },
+    "net/blay09/mods/balm/mixin/MinecraftServerMixin": {
+      "reloadResources(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/server/MinecraftServer;m_129861_(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;"
+    },
+    "net/blay09/mods/balm/mixin/KeyMappingMixin": {
+      "same(Lnet/minecraft/client/KeyMapping;)Z": "Lnet/minecraft/client/KeyMapping;m_90850_(Lnet/minecraft/client/KeyMapping;)Z"
+    },
+    "net/blay09/mods/balm/mixin/CropBlockMixin": {
+      "mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/block/CropBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "net/blay09/mods/balm/mixin/ModelBakeryMixin": {
+      "bakeModels(Ljava/util/function/BiFunction;)V": "Lnet/minecraft/client/resources/model/ModelBakery;m_245909_(Ljava/util/function/BiFunction;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/blay09/mods/balm/mixin/ImageButtonAccessor": {
+        "resourceLocation": "f_94223_:Lnet/minecraft/resources/ResourceLocation;"
+      },
+      "net/blay09/mods/balm/mixin/StemBlockMixin": {
+        "mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/block/StemBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "net/blay09/mods/balm/mixin/ScreenAccessor": {
+        "renderables": "f_169369_:Ljava/util/List;",
+        "children": "f_96540_:Ljava/util/List;",
+        "narratables": "f_169368_:Ljava/util/List;"
+      },
+      "net/blay09/mods/balm/mixin/MinecraftMixin": {
+        "run()V": "Lnet/minecraft/client/Minecraft;m_91374_()V"
+      },
+      "net/blay09/mods/balm/mixin/EntityMixin": {
+        "saveWithoutId(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;": "Lnet/minecraft/world/entity/Entity;m_20240_(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;",
+        "load(Lnet/minecraft/nbt/CompoundTag;)V": "Lnet/minecraft/world/entity/Entity;m_20258_(Lnet/minecraft/nbt/CompoundTag;)V"
+      },
+      "net/blay09/mods/balm/mixin/ReloadableServerResourcesMixin": {
+        "loadResources(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess$Frozen;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/Commands$CommandSelection;ILjava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/server/ReloadableServerResources;m_247740_(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/core/RegistryAccess$Frozen;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/Commands$CommandSelection;ILjava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;"
+      },
+      "net/blay09/mods/balm/mixin/KeyMappingAccessor": {
+        "key": "f_90816_:Lcom/mojang/blaze3d/platform/InputConstants$Key;"
+      },
+      "net/blay09/mods/balm/mixin/SlotAccessor": {
+        "x": "f_40220_:I",
+        "y": "f_40221_:I"
+      },
+      "net/blay09/mods/balm/mixin/LootTableMixin": {
+        "getRandomItems(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;": "Lnet/minecraft/world/level/storage/loot/LootTable;m_230922_(Lnet/minecraft/world/level/storage/loot/LootContext;)Lit/unimi/dsi/fastutil/objects/ObjectArrayList;"
+      },
+      "net/blay09/mods/balm/mixin/MouseHandlerAccessor": {
+        "ypos": "f_91508_:D",
+        "xpos": "f_91507_:D"
+      },
+      "net/blay09/mods/balm/mixin/PlayerListMixin": {
+        "placeNewPlayer": "Lnet/minecraft/server/players/PlayerList;m_11261_(Lnet/minecraft/network/Connection;Lnet/minecraft/server/level/ServerPlayer;)V"
+      },
+      "net/blay09/mods/balm/mixin/AbstractContainerScreenAccessor": {
+        "leftPos": "f_97735_:I",
+        "imageWidth": "f_97726_:I",
+        "hoveredSlot": "f_97734_:Lnet/minecraft/world/inventory/Slot;",
+        "isHovering": "m_97774_(Lnet/minecraft/world/inventory/Slot;DD)Z",
+        "topPos": "f_97736_:I",
+        "imageHeight": "f_97727_:I",
+        "renderSlot": "m_280092_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/inventory/Slot;)V"
+      },
+      "net/blay09/mods/balm/mixin/CheckboxAccessor": {
+        "selected": "f_93822_:Z"
+      },
+      "net/blay09/mods/balm/mixin/MinecraftServerMixin": {
+        "reloadResources(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/server/MinecraftServer;m_129861_(Ljava/util/Collection;)Ljava/util/concurrent/CompletableFuture;"
+      },
+      "net/blay09/mods/balm/mixin/KeyMappingMixin": {
+        "same(Lnet/minecraft/client/KeyMapping;)Z": "Lnet/minecraft/client/KeyMapping;m_90850_(Lnet/minecraft/client/KeyMapping;)Z"
+      },
+      "net/blay09/mods/balm/mixin/CropBlockMixin": {
+        "mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/block/CropBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "net/blay09/mods/balm/mixin/ModelBakeryMixin": {
+        "bakeModels(Ljava/util/function/BiFunction;)V": "Lnet/minecraft/client/resources/model/ModelBakery;m_245909_(Ljava/util/function/BiFunction;)V"
+      }
+    }
+  }
+}
