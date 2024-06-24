@@ -1,0 +1,26 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "twilightforest"
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "twilightforest:transformation_powder"
+    },
+    "b": {
+      "tag": "forge:icecreams"
+    }
+  },
+    "result": {
+        "nbt": "{CustomModelData:2,display:{Name:'[{\"text\":\"Tra\",\"italic\":false,\"color\":\"blue\"},{\"text\":\"ns \",\"color\":\"light_purple\"},{\"text\":\"Ice \",\"color\":\"white\"},{\"text\":\"Cr\",\"color\":\"light_purple\"},{\"text\":\"eam\"}]'}}",
+        "item": "allthefood:strawberry_ice_cream",
+        "type": "minecraft:item_nbt"
+    }
+}

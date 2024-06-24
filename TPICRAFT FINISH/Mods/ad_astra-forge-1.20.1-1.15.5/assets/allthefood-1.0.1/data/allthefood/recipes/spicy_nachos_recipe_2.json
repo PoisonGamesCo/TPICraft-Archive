@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "allthefood:nachos"
+    },
+    "b": {
+      "item": "allthefood:habanero_pepper"
+    }
+  },
+  "result": {
+    "item": "allthefood:spicy_nachos",
+    "count": 8
+  }
+}

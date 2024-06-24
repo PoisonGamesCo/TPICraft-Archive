@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "aba",
+        "aca",
+        "aaa"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:baked_potato"
+        },
+        "b": {
+            "item": "allthefood:habanero_pepper"
+        },
+        "c": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+        "nbt": "{display:{Name:'[{\"text\":\"Hot Potato Book\",\"italic\":false}]'},StoredEnchantments:[{id:\"minecraft:protection\",lvl:1},{id:\"minecraft:sharpness\",lvl:1}]}",
+        "item": "minecraft:enchanted_book",
+        "type": "minecraft:item_nbt"
+    }
+}

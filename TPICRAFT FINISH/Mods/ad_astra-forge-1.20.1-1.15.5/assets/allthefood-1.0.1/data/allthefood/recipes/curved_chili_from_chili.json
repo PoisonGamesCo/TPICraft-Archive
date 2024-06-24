@@ -1,0 +1,19 @@
+{
+    "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "chilibulletweapons"
+        }
+    ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "allthefood:jalapeno_pepper"
+    }
+  ],
+  "result": {
+    "item": "chilibulletweapons:curved_chili",
+    "count": 1
+  }
+}

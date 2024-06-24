@@ -1,0 +1,35 @@
+{
+    "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "shadowlands"
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+      "item": "allthefood:glass_bowl"
+    },
+    "d": {
+      "item": "shadowlands:shadow_eye"
+    },
+    "e": {
+      "tag": "allthefood:milk"
+    }
+  },
+  "result": {
+    "item": "allthefood:shadow_ice_cream_bowl",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "allthefood:allthefood_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "chests/stronghold_corridor"
+    }
+  ],
+  "lootTable": "allthefood:chests/rare_stronghold_food"
+}

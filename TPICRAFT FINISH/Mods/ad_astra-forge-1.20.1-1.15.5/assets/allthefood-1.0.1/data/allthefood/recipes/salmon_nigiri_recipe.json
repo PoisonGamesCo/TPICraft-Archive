@@ -1,0 +1,31 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:rice"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "tag": "forge:rice"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "tag": "forge:rice"
+    }
+  ],
+  "result": {
+    "item": "allthefood:salmon_nigiri",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:cheese"
+    },
+    "b": {
+      "item": "minecraft:warped_fungus"
+    }
+  },
+  "result": {
+    "item": "allthefood:stilton_cheese",
+    "count": 1
+  }
+}

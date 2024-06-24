@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:water"
+    },
+    "b": {
+      "item": "allthefood:gelatin_sheet"
+    },
+    "c": {
+      "tag": "forge:mangos"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "allthefood:mango_jelly",
+    "count": 1
+  }
+}

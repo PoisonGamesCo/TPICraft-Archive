@@ -1,0 +1,35 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:chocolate"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "tag": "allthefood:milk"
+    },
+    "c": {
+      "item": "allthefood:milkshake_glass"
+    },
+    "d": {
+      "tag": "forge:chocolate"
+    }
+  },
+  "result": {
+    "item": "allthefood:chocolate_milkshake",
+    "count": 1
+  }
+}

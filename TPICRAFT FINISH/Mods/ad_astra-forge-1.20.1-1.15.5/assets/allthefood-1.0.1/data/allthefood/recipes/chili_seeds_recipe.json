@@ -1,0 +1,19 @@
+{
+    "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "croptopia"
+        }
+    ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "allthefood:jalapeno_pepper"
+    }
+  ],
+  "result": {
+    "item": "croptopia:chile_pepper_seed",
+    "count": 1
+  }
+}

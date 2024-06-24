@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="allthefood"
+version="1.0"
+displayName="AllTheFood"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/extra-carpets"
+credits="Created by dreamCritting"
+authors="Dreamcritting"
+description="Adds lots of new food!"
+
+[[dependencies.allthefood]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

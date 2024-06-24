@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:glass_pane"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "allthefood:glass_bowl",
+    "count": 2
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "twilightforest"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "tag": "allthefood:pepper"
+    },
+    "b": {
+      "tag": "twilightforest:fiery_vial"
+    },
+    "c": {
+      "item": "minecraft:blaze_powder"
+    },
+    "d": {
+      "item": "allthefood:ghost_pepper"
+    },
+    "e": {
+      "item": "allthefood:habanero_pepper"
+    },
+    "f": {
+      "item": "minecraft:egg"
+    },
+    "g": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "h": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "allthefood:scorching_pie",
+    "count": 1
+  }
+}

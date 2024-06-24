@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "tag": "forge:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "allthefood:berry_popsicle",
+    "count": 1
+  }
+}

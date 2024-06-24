@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "allthefood:block/cantaloupe_top",
+    "up": "allthefood:block/cantaloupe_top",
+    "north": "allthefood:block/cantaloupe_side",
+    "east": "allthefood:block/cantaloupe_side",
+    "south": "allthefood:block/cantaloupe_side",
+    "west": "allthefood:block/cantaloupe_side",
+    "particle": "allthefood:block/cantaloupe_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,28 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+          "type": "forge:mod_loaded",
+          "modid": "twilightforest"
+        }
+      }
+    ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "allthefood:cheese"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "item": "allthefood:edam_cheese",
+    "count": 1
+  }
+}

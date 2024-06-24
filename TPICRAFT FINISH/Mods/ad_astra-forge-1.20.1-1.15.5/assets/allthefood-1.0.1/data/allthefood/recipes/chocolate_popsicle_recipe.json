@@ -1,0 +1,32 @@
+{
+    "conditions": [
+        {
+                "type": "forge:tag_empty",
+                "tag": "forge:chocolate"
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+      "tag": "forge:rods/wooden"
+    },
+    "d": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "allthefood:chocolate_popsicle",
+    "count": 1
+  }
+}

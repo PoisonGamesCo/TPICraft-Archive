@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+      "item": "allthefood:glass_bowl"
+    },
+    "d": {
+      "tag": "allthefood:mangos"
+    },
+    "e": {
+      "tag": "allthefood:milk"
+    }
+  },
+  "result": {
+    "item": "allthefood:mango_ice_cream_bowl",
+    "count": 1
+  }
+}

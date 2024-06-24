@@ -1,0 +1,43 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:bananas"
+            }
+        },
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:rice"
+            }
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " a ",
+        "bcb",
+        " d "
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:sugar"
+        },
+        "b": {
+            "item": "minecraft:dried_kelp"
+        },
+        "c": {
+            "tag": "forge:bananas"
+        },
+        "d": {
+            "tag": "forge:rice"
+        }
+    },
+    "result": {
+        "item": "allthefood:clown_sushi",
+        "count": 1
+    }
+}

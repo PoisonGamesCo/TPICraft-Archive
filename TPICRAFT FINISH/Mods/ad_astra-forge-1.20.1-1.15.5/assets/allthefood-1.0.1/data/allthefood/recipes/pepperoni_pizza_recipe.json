@@ -1,0 +1,36 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:pepperoni"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:pepperoni"
+    },
+    "b": {
+      "tag": "forge:crops/tomato"
+    },
+    "c": {
+      "tag": "forge:bread"
+    },
+    "d": {
+      "tag": "forge:cheese"
+    }
+  },
+    "result": {
+        "nbt": "{display:{Name:'[{\"text\":\"Pepperoni Pizza\",\"italic\":false}]'}}",
+        "item": "allthefood:pizza",
+        "type": "minecraft:item_nbt"
+    }
+}
