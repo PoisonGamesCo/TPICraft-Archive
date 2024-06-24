@@ -1,0 +1,5 @@
+// 1.20.1	2024-03-12T17:53:38.6472868	vanilla/Tags for minecraft:item mod id appflux
+fd410182e736f67e7688f2189126a913d725edcf data/forge/tags/items/gems.json
+fd410182e736f67e7688f2189126a913d725edcf data/forge/tags/items/gems/redstone.json
+f9bf2de7476fdc289b154b3a14319d00c1185d01 data/forge/tags/items/ingots.json
+f9bf2de7476fdc289b154b3a14319d00c1185d01 data/forge/tags/items/ingots/insulating_resin.json

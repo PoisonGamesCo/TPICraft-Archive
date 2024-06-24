@@ -1,0 +1,21 @@
+{
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "fluid",
+    "tag": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    {
+      "tag": "forge:dusts/fluix"
+    },
+    {
+      "item": "ae2:sky_dust"
+    }
+  ],
+  "result": {
+    "item": "appflux:redstone_crystal"
+  }
+}
