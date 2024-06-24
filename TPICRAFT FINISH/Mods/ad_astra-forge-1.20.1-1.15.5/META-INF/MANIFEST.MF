@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-MixinConfigs: ad_astra-common.mixins.json,ad_astra.mixins.json
-
