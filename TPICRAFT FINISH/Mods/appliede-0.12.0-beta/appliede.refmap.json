@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "gripe/_90/appliede/mixin/tooltip/MEStorageMenuMixin": {
+      "broadcastChanges": "Lappeng/menu/me/common/MEStorageMenu;m_38946_()V"
+    },
+    "gripe/_90/appliede/mixin/misc/MEStorageScreenMixin": {
+      "renderTooltip": "Lappeng/client/gui/me/common/MEStorageScreen;m_280072_(Lnet/minecraft/client/gui/GuiGraphics;II)V"
+    },
+    "gripe/_90/appliede/mixin/crafting/CraftConfirmMenuMixin": {
+      "removed": "Lappeng/menu/me/crafting/CraftConfirmMenu;m_6877_(Lnet/minecraft/world/entity/player/Player;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "gripe/_90/appliede/mixin/tooltip/MEStorageMenuMixin": {
+        "broadcastChanges": "Lappeng/menu/me/common/MEStorageMenu;m_38946_()V"
+      },
+      "gripe/_90/appliede/mixin/misc/MEStorageScreenMixin": {
+        "renderTooltip": "Lappeng/client/gui/me/common/MEStorageScreen;m_280072_(Lnet/minecraft/client/gui/GuiGraphics;II)V"
+      },
+      "gripe/_90/appliede/mixin/crafting/CraftConfirmMenuMixin": {
+        "removed": "Lappeng/menu/me/crafting/CraftConfirmMenu;m_6877_(Lnet/minecraft/world/entity/player/Player;)V"
+      }
+    }
+  }
+}
