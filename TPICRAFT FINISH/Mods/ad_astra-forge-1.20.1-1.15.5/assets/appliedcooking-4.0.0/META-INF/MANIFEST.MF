@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: appliedcooking
+Specification-Vendor: ItsSebastrn
+Specification-Version: 1
+Implementation-Title: AppliedCooking
+Implementation-Version: 4.0.0
+Implementation-Vendor: ItsSebastrn
+Implementation-Timestamp: 2023-08-16T15:28:49-0500
+
