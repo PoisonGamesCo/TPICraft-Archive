@@ -4,7 +4,7 @@
     "matterCannonBlockDamage_comment": "Enables the ability of the Matter Cannon to break blocks.",
     "matterCannonBlockDamage": true,
     "tinyTntBlockDamage_comment": "Enables the ability of Tiny TNT to break blocks.",
-    "tinyTntBlockDamage": true,
+    "tinyTntBlockDamage": false,
     "channels_comment": "Changes the channel capacity that cables provide in AE2.",
     "channels": "default",
     "pathfindingStepsPerTick_comment": "The number of pathfinding steps that are taken per tick and per grid that is booting. Lower numbers will mean booting takes longer, but less work is done per tick.",
@@ -13,7 +13,7 @@
     "spatialAnchorEnableRandomTicks": true
   },
   "automation": {
-    "formationPlaneEntityLimit": 128
+    "formationPlaneEntityLimit": 4096
   },
   "facades": {
     "allowBlockEntities_comment": "Unsupported: Allows whitelisting block entities as facades. Could work, have render issues, or corrupt your world. USE AT YOUR OWN RISK.",
@@ -58,7 +58,7 @@
     "spawnFlawlessOnly": false
   },
   "wireless": {
-    "wirelessBaseCost": 8.0,
+    "wirelessBaseCost": 32.0,
     "wirelessCostMultiplier": 1.0,
     "wirelessBaseRange": 16.0,
     "wirelessBoosterRangeMultiplier": 1.0,
@@ -71,7 +71,7 @@
     "allowDisassembly": true
   },
   "PowerRatios": {
-    "ForgeEnergy": 0.5,
+    "ForgeEnergy": 1.0,
     "UsageMultiplier": 1.0,
     "GridEnergyStoragePerNode_comment": "How much energy can the internal grid buffer storage per node attached to the grid.",
     "GridEnergyStoragePerNode": 25.0,

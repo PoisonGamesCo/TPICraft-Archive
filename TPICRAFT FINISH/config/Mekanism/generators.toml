@@ -4,14 +4,14 @@
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
 	energyPerFusionFuel = "10000000"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
-	solarGeneration = "50"
+	solarGeneration = "100"
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
-	advancedSolarGeneration = "300"
+	advancedSolarGeneration = "600"
 
 	#Bio Generator Settings
 	[generators.bio_generator]
 		#Amount of energy in Joules the Bio Generator produces per tick.
-		bioGeneration = "350"
+		bioGeneration = "900"
 		#The capacity in mB of the fluid tank in the Bio Generator.
 		#Range: > 1
 		tankCapacity = 24000
@@ -45,28 +45,28 @@
 	[generators.turbine]
 		#The number of blades on each turbine coil per blade applied.
 		#Range: 1 ~ 12
-		turbineBladesPerCoil = 4
+		turbineBladesPerCoil = 8
 		#The rate at which steam is vented into the turbine.
 		#Range: 0.1 ~ 1024000.0
-		turbineVentGasFlow = 32000.0
+		turbineVentGasFlow = 6400000
 		#The rate at which steam is dispersed into the turbine.
 		#Range: 0.1 ~ 1024000.0
 		turbineDisperserGasFlow = 1280.0
 		#Amount of energy (J) that each block of the turbine contributes to the total energy capacity. Max = volume * energyCapacityPerVolume
-		energyCapacityPerVolume = "16000000"
+		energyCapacityPerVolume = "64000000"
 		#Amount of gas (mB) that each block of the turbine's steam cavity contributes to the volume. Max = volume * gasPerTank
 		#Range: 1 ~ 1773043451913643
-		gasPerTank = 64000
+		gasPerTank = 640000000
 		#The rate at which steam is condensed in the turbine.
 		#Range: 1 ~ 2000000
-		condenserRate = 64000
+		condenserRate = 640000
 
 	#Wind Generator Settings
 	[generators.wind_generator]
 		#Minimum base generation value of the Wind Generator.
 		windGenerationMin = "60"
 		#Maximum base generation value of the Wind Generator.
-		generationMax = "480"
+		generationMax = "870"
 		#The minimum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's min height.
 		#Range: -2032 ~ 2030
 		minY = 24
@@ -85,7 +85,7 @@
 		casingThermalConductivity = 0.1
 		#The fraction of the heat from the casing that is dissipated to water when water cooling is in use. Will impact max heat, and steam generation.
 		#Range: 0.0 ~ 1.0
-		waterHeatingRatio = 0.3
+		waterHeatingRatio = 0.5
 		#Amount of fuel (mB) that the fusion reactor can store.
 		#Range: 2 ~ 1000000
 		fuelCapacity = 1000
@@ -112,8 +112,8 @@
 		#Amount of energy created (in heat) from each whole mB of fission fuel.
 		energyPerFissionFuel = "1000000"
 		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
-		#Range: 1.0 ~ 1000000.0
-		casingHeatCapacity = 1000.0
+		#Range: 1.0 ~ 90000000.0
+		casingHeatCapacity = 90000.0
 		#The average surface area of a Fission Reactor's fuel assemblies to reach 100% boil efficiency. Higher values make it harder to cool the reactor.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		surfaceAreaTarget = 4.0
@@ -130,20 +130,20 @@
 		meltdownRadiationMultiplier = 50.0
 		#Damage to reset the reactor to after a meltdown.
 		#Range: 0.0 ~ 100.0
-		postMeltdownDamage = 75.0
+		postMeltdownDamage = 25.0
 		#The default burn rate of the fission reactor.
 		#Range: 0.001 ~ 1.0
 		defaultBurnRate = 0.1
 		#The burn rate increase each fuel assembly provides. Max Burn Rate = fuelAssemblies * burnPerAssembly
 		#Range: 1 ~ 1000000
-		burnPerAssembly = 1
+		burnPerAssembly = 10
 		#Amount of fuel (mB) that each assembly contributes to the fuel and waste capacity. Max = fuelAssemblies * maxFuelPerAssembly
 		#Range: 1 ~ 2251799813685247
-		maxFuelPerAssembly = 8000
+		maxFuelPerAssembly = 80000
 		#Amount of cooled coolant (mB) that each block of the fission reactor contributes to the volume. Max = volume * cooledCoolantPerTank
 		#Range: 1 ~ 368224
-		cooledCoolantPerTank = 100000
+		cooledCoolantPerTank = 90000000
 		#Amount of heated coolant (mB) that each block of the fission reactor contributes to the volume. Max = volume * heatedCoolantPerTank
 		#Range: 1000 ~ 1581510980256305
-		heatedCoolantPerTank = 1000000
+		heatedCoolantPerTank = 9000000
 

@@ -4,7 +4,7 @@
 	#Play sounds for Jetpack/Gas Mask/Flamethrower/Radiation (all players).
 	enablePlayerSounds = true
 	#If enabled machines play their sounds while running.
-	enableMachineSounds = true
+	enableMachineSounds = false
 	#If enabled tries to force all radial menu text to be white.
 	whiteRadialText = false
 	#Should holiday greetings and easter eggs play for holidays (ex: Christmas and New Years).

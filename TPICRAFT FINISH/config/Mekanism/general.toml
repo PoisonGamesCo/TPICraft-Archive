@@ -34,25 +34,25 @@
 	superheatingHeatTransfer = 1.6E7
 	#Peak processing rate for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
 	#Range: 1 ~ 1024
-	maxSolarNeutronActivatorRate = 64
+	maxSolarNeutronActivatorRate = 128
 
 	#Dynamic Tank Settings
 	[general.dynamic_tank]
 		#Amount of fluid (mB) that each block of the dynamic tank contributes to the volume. Max = volume * fluidPerTank
 		#Range: 1 ~ 368224
-		fluidPerTank = 350000
+		fluidPerTank = 35000000
 		#Amount of chemical (mB) that each block of the dynamic tank contributes to the volume. Max = volume * chemicalPerTank
 		#Range: 1 ~ 1581510980256305
-		chemicalPerTank = 16000000
+		chemicalPerTank = 160000000
 
 	#Auto Eject Settings
 	[general.auto_eject]
 		#Rate at which fluid gets auto ejected from tiles.
 		#Range: > 1
-		fluid = 1024
+		fluid = 4096
 		#Rate at which chemicals gets auto ejected from tiles.
 		#Range: 1 ~ 9223372036854775807
-		chemical = 1024
+		chemical = 4096
 		#The percentage of a tank's capacity to leave contents in when set to dumping excess.
 		#Range: 0.001 ~ 1.0
 		dumpExcessKeepRatio = 0.9
@@ -93,10 +93,10 @@
 		radiationEnabled = true
 		#The radius of chunks checked when running radiation calculations. The algorithm is efficient, but don't abuse it by making this crazy high.
 		#Range: 1 ~ 100
-		chunkCheckRadius = 5
+		chunkCheckRadius = 10
 		#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 hours to remove a 1,000 Sv/h (crazy high) source.
 		#Range: 0.0 ~ 1.0
-		sourceDecayRate = 0.9995
+		sourceDecayRate = 1.2
 		#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
 		#Range: 0.0 ~ 1.0
 		targetDecayRate = 0.9995
@@ -108,10 +108,10 @@
 		radioactiveWasteBarrelMaxGas = 512000
 		#Number of ticks required for radioactive gas stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.
 		#Range: > 1
-		radioactiveWasteBarrelProcessTicks = 20
+		radioactiveWasteBarrelProcessTicks = 5
 		#Number of mB of gas that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Gases in the mekanism:waste_barrel_decay_blacklist tag will not decay).
 		#Range: 0 ~ 9223372036854775807
-		radioactiveWasteBarrelDecayAmount = 1
+		radioactiveWasteBarrelDecayAmount = 50
 
 	#Digital Miner Settings
 	[general.digital_miner]
@@ -120,10 +120,10 @@
 		silkMultiplier = 12
 		#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value).
 		#Range: > 1
-		maxRadius = 32
+		maxRadius = 64
 		#Number of ticks required to mine a single block with a Digital Miner (without any upgrades).
 		#Range: > 1
-		ticksPerMine = 80
+		ticksPerMine = 40
 
 	#Laser Settings
 	[general.laser]
@@ -178,10 +178,10 @@
 	[general.nutritional_paste]
 		#Saturation level of Nutritional Paste when eaten.
 		#Range: 0.0 ~ 100.0
-		saturation = 0.8
+		saturation = 1
 		#How much mB of Nutritional Paste equates to one 'half-food.'
 		#Range: > 1
-		mbPerFood = 50
+		mbPerFood = 100
 
 	#Boiler Settings
 	[general.boiler]
@@ -223,10 +223,10 @@
 	[general.sps]
 		#How much input gas (polonium) in mB must be processed to make 1 mB of antimatter. Input tank capacity is 2x this value.
 		#Range: > 1
-		inputPerAntimatter = 1000
+		inputPerAntimatter = 500
 		#Amount of output gas (mB, antimatter) that the SPS can store.
 		#Range: 1 ~ 9223372036854775807
 		outputTankCapacity = 1000
 		#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
-		energyPerInput = "1000000"
+		energyPerInput = "100000"
 

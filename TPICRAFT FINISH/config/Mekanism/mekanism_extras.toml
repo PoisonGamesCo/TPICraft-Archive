@@ -206,5 +206,5 @@
 		#Maximum number of Joules cosmic induction providers can output or accept.
 		eliteOutput = "67108864000"
 		#Maximum number of Joules infinite induction providers can output or accept.
-		ultimateOutput = "536870912000"
+		ultimateOutput = "53687091200000000"
 
