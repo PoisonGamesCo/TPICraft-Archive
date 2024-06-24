@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+[[mods]]
+modId = "appliedcooking"
+version = "4.0.0"
+displayName = "Applied Cooking"
+logoFile = "logo.png"
+authors = "ItsSebastrn"
+description = '''A mod to bridge Cooking For Blockheads with Applied Energistics 2'''
+
+[[dependencies.appliedcooking]]
+modId = "ae2"
+mandatory = true
+versionRange = "[15.0.4-beta,)"
+ordering = "BEFORE"
+side = "BOTH"
+
+[[dependencies.appliedcooking]]
+modId = "cookingforblockheads"
+mandatory = true
+versionRange = "[16.0.0,)"
+ordering = "BEFORE"
+side = "BOTH"
+
+[[dependencies.appliedcooking]]
+modId = "sebastrnlib"
+mandatory = true
+versionRange = "[4.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
