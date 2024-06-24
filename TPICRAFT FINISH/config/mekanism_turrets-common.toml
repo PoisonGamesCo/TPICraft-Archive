@@ -34,7 +34,7 @@
 	ultimateLaserTurretCooldown = 35
 	#Damage of the Ultimate Laser Turret
 	#Range: 0.0 ~ 2.147483647E9
-	ultimateLaserTurretDamage = 4.0
+	ultimateLaserTurretDamage = 20.0
 	#Energy Capacity of the Ultimate Laser Turret
 	#Range: > 0
 	ultimateLaserTurretEnergyCapacity = 160000

@@ -3,7 +3,7 @@
 [General]
 	#The amount of uses the basic Infusion Crystal should have.
 	#Range: > 10
-	infusionCrystalUses = 1000
+	infusionCrystalUses = 9000
 	#Should the Wither drop Cognizant Dust when killed with a Mystical Enlightenment enchanted essence weapon?
 	witherDropsCognizant = true
 	#Should vanilla crafting recipes for seeds be generated?
@@ -29,10 +29,10 @@
 	secondarySeedDrops = true
 	#The percentage chance that harvesting a Resource Crop will drop a Fertilized Essence.
 	#Range: 0.0 ~ 1.0
-	fertilizedEssenceChance = 0.1
+	fertilizedEssenceChance = 0.01
 	#The percentage chance that a passive or hostile mob will drop an Inferium Essence when killed.
 	#Range: 0.0 ~ 1.0
-	inferiumDropChance = 0.2
+	inferiumDropChance = 0.7
 
 #World generation options.
 [World]
