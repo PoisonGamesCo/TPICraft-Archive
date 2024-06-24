@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "allthemodium",
+  "key": {
+    "a": {
+      "tag": "forge:ingots/unobtainium"
+    }
+  },
+  "pattern": [
+    "a  ",
+    "a  ",
+    "a  "
+  ],
+  "result": {
+    "item": "allthemodium:unobtainium_rod"
+  },
+  "show_notification": true
+}
