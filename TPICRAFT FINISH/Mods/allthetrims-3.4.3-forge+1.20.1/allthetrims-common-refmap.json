@@ -1,0 +1,138 @@
+{
+  "mappings": {
+    "com/bawnorton/allthetrims/mixin/DataPackContentsMixin": {
+      "repopulateTags": "Lnet/minecraft/server/ReloadableServerResources;m_206870_(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/tags/TagManager$LoadResult;)V"
+    },
+    "com/bawnorton/allthetrims/mixin/ItemMixin": {
+      "appendTooltip": "Lnet/minecraft/world/item/Item;m_7373_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V"
+    },
+    "com/bawnorton/allthetrims/mixin/RegistryLoaderMixin": {
+      "Lnet/minecraft/resource/ResourceFinder;findResources(Lnet/minecraft/resource/ResourceManager;)Ljava/util/Map;": "Lnet/minecraft/resources/FileToIdConverter;m_247457_(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;",
+      "load(Lnet/minecraft/registry/RegistryOps$RegistryInfoGetter;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/registry/RegistryKey;Lnet/minecraft/registry/MutableRegistry;Lcom/mojang/serialization/Decoder;Ljava/util/Map;)V": "Lnet/minecraft/resources/RegistryDataLoader;m_255048_(Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/WritableRegistry;Lcom/mojang/serialization/Decoder;Ljava/util/Map;)V"
+    },
+    "com/bawnorton/allthetrims/mixin/SmithingScreenHandlerMixin": {
+      "getSlotFor": "Lnet/minecraft/world/inventory/SmithingMenu;m_266159_(Lnet/minecraft/world/item/ItemStack;)I"
+    },
+    "com/bawnorton/allthetrims/mixin/accessor/SmithingTrimRecipeAccessor": {
+      "addition": "f_266053_:Lnet/minecraft/world/item/crafting/Ingredient;",
+      "base": "f_266040_:Lnet/minecraft/world/item/crafting/Ingredient;",
+      "template": "f_265958_:Lnet/minecraft/world/item/crafting/Ingredient;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/ArmorFeatureRendererMixin": {
+      "<init>": "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;<init>(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/resources/model/ModelManager;)V",
+      "Lnet/minecraft/client/render/model/BakedModelManager;getAtlas(Lnet/minecraft/util/Identifier;)Lnet/minecraft/client/texture/SpriteAtlasTexture;": "Lnet/minecraft/client/resources/model/ModelManager;m_119428_(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/texture/TextureAtlas;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/ArmorTrimMixin": {
+      "Lnet/minecraft/text/MutableText;append(Lnet/minecraft/text/Text;)Lnet/minecraft/text/MutableText;": "Lnet/minecraft/network/chat/MutableComponent;m_7220_(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;",
+      "appendTooltip": "Lnet/minecraft/world/item/armortrim/ArmorTrim;m_266563_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/RegistryAccess;Ljava/util/List;)V"
+    },
+    "com/bawnorton/allthetrims/mixin/client/BakedModelManagerMixin": {
+      "Lnet/minecraft/resource/ResourceFinder;findResources(Lnet/minecraft/resource/ResourceManager;)Ljava/util/Map;": "Lnet/minecraft/resources/FileToIdConverter;m_247457_(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;",
+      "method_45895(Lnet/minecraft/resource/ResourceManager;)Ljava/util/Map;": "Lnet/minecraft/client/resources/model/ModelManager;m_246360_(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/ModelOverrideListMixin": {
+      "Lnet/minecraft/client/render/model/json/ModelOverrideList$BakedOverride;test([F)Z": "Lnet/minecraft/client/renderer/block/model/ItemOverrides$BakedOverride;m_173485_([F)Z",
+      "Lnet/minecraft/client/render/model/json/ModelOverrideList$InlinedCondition;<init>(IF)V": "Lnet/minecraft/client/renderer/block/model/ItemOverrides$PropertyMatcher;<init>(IF)V",
+      "apply": "Lnet/minecraft/client/renderer/block/model/ItemOverrides;m_173464_(Lnet/minecraft/client/resources/model/BakedModel;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/client/resources/model/BakedModel;",
+      "method_33696": "Lnet/minecraft/client/renderer/block/model/ItemOverrides;m_173475_(Lit/unimi/dsi/fastutil/objects/Object2IntMap;Lnet/minecraft/client/renderer/block/model/ItemOverride$Predicate;)Lnet/minecraft/client/renderer/block/model/ItemOverrides$PropertyMatcher;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/ModelOverrideListMixin$InlinedConditionMixin": {
+      "<init>": "Lnet/minecraft/client/renderer/block/model/ItemOverrides$PropertyMatcher;<init>(IF)V"
+    },
+    "com/bawnorton/allthetrims/mixin/client/ModelOverrideMixin$ConditionMixin": {
+      "<init>": "Lnet/minecraft/client/renderer/block/model/ItemOverride$Predicate;<init>(Lnet/minecraft/resources/ResourceLocation;F)V"
+    },
+    "com/bawnorton/allthetrims/mixin/client/ModelOverrideMixin$DeserializerMixin": {
+      "Lnet/minecraft/util/JsonHelper;asFloat(Lcom/google/gson/JsonElement;Ljava/lang/String;)F": "Lnet/minecraft/util/GsonHelper;m_13888_(Lcom/google/gson/JsonElement;Ljava/lang/String;)F",
+      "deserializeMinPropertyValues": "Lnet/minecraft/client/renderer/block/model/ItemOverride$Deserializer;m_173450_(Lcom/google/gson/JsonObject;)Ljava/util/List;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/NamespaceResourceManagerMixin": {
+      "getAllResources": "Lnet/minecraft/server/packs/resources/FallbackResourceManager;m_213829_(Lnet/minecraft/resources/ResourceLocation;)Ljava/util/List;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/PalettedPermutationsAtlasSourceMixin": {
+      "Lnet/minecraft/resource/ResourceManager;getResource(Lnet/minecraft/util/Identifier;)Ljava/util/Optional;": "Lnet/minecraft/server/packs/resources/ResourceManager;m_213713_(Lnet/minecraft/resources/ResourceLocation;)Ljava/util/Optional;",
+      "load": "Lnet/minecraft/client/renderer/texture/atlas/sources/PalettedPermutations;m_260891_(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/client/renderer/texture/atlas/SpriteSource$Output;)V",
+      "method_48486": "Lnet/minecraft/client/renderer/texture/atlas/sources/PalettedPermutations;m_266592_(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/ResourceLocation;)[I",
+      "method_48487": "Lnet/minecraft/client/renderer/texture/atlas/sources/PalettedPermutations;m_266460_(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/compat/emi/VanillaPluginMixin": {
+      "Ldev/emi/emi/VanillaPlugin;addRecipeSafe(Ldev/emi/emi/api/EmiRegistry;Ljava/util/function/Supplier;Lnet/minecraft/recipe/Recipe;)V": "Ldev/emi/emi/VanillaPlugin;addRecipeSafe(Ldev/emi/emi/api/EmiRegistry;Ljava/util/function/Supplier;Lnet/minecraft/world/item/crafting/Recipe;)V",
+      "net/minecraft/recipe/RecipeType.SMITHING:Lnet/minecraft/recipe/RecipeType;": "Lnet/minecraft/world/item/crafting/RecipeType;f_44113_:Lnet/minecraft/world/item/crafting/RecipeType;"
+    },
+    "com/bawnorton/allthetrims/mixin/client/compat/immersivearmors/LayerPieceMixin": {
+      "renderTrim": "Limmersive_armors/client/render/entity/piece/LayerPiece;renderTrim(Lnet/minecraft/world/item/ArmorMaterial;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/item/armortrim/ArmorTrim;Lnet/minecraft/client/model/HumanoidModel;Z)V"
+    },
+    "com/bawnorton/allthetrims/mixin/client/compat/jei/SmithingRecipeCategoryMixin": {
+      "isHandled(Lnet/minecraft/recipe/SmithingRecipe;)Z": "Lmezz/jei/library/plugins/vanilla/anvil/SmithingRecipeCategory;isHandled(Lnet/minecraft/world/item/crafting/SmithingRecipe;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/bawnorton/allthetrims/mixin/DataPackContentsMixin": {
+        "repopulateTags": "Lnet/minecraft/server/ReloadableServerResources;m_206870_(Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/tags/TagManager$LoadResult;)V"
+      },
+      "com/bawnorton/allthetrims/mixin/ItemMixin": {
+        "appendTooltip": "Lnet/minecraft/world/item/Item;m_7373_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V"
+      },
+      "com/bawnorton/allthetrims/mixin/RegistryLoaderMixin": {
+        "Lnet/minecraft/resource/ResourceFinder;findResources(Lnet/minecraft/resource/ResourceManager;)Ljava/util/Map;": "Lnet/minecraft/resources/FileToIdConverter;m_247457_(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;",
+        "load(Lnet/minecraft/registry/RegistryOps$RegistryInfoGetter;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/registry/RegistryKey;Lnet/minecraft/registry/MutableRegistry;Lcom/mojang/serialization/Decoder;Ljava/util/Map;)V": "Lnet/minecraft/resources/RegistryDataLoader;m_255048_(Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/WritableRegistry;Lcom/mojang/serialization/Decoder;Ljava/util/Map;)V"
+      },
+      "com/bawnorton/allthetrims/mixin/SmithingScreenHandlerMixin": {
+        "getSlotFor": "Lnet/minecraft/world/inventory/SmithingMenu;m_266159_(Lnet/minecraft/world/item/ItemStack;)I"
+      },
+      "com/bawnorton/allthetrims/mixin/accessor/SmithingTrimRecipeAccessor": {
+        "addition": "f_266053_:Lnet/minecraft/world/item/crafting/Ingredient;",
+        "base": "f_266040_:Lnet/minecraft/world/item/crafting/Ingredient;",
+        "template": "f_265958_:Lnet/minecraft/world/item/crafting/Ingredient;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/ArmorFeatureRendererMixin": {
+        "<init>": "Lnet/minecraft/client/renderer/entity/layers/HumanoidArmorLayer;<init>(Lnet/minecraft/client/renderer/entity/RenderLayerParent;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/model/HumanoidModel;Lnet/minecraft/client/resources/model/ModelManager;)V",
+        "Lnet/minecraft/client/render/model/BakedModelManager;getAtlas(Lnet/minecraft/util/Identifier;)Lnet/minecraft/client/texture/SpriteAtlasTexture;": "Lnet/minecraft/client/resources/model/ModelManager;m_119428_(Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/texture/TextureAtlas;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/ArmorTrimMixin": {
+        "Lnet/minecraft/text/MutableText;append(Lnet/minecraft/text/Text;)Lnet/minecraft/text/MutableText;": "Lnet/minecraft/network/chat/MutableComponent;m_7220_(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/MutableComponent;",
+        "appendTooltip": "Lnet/minecraft/world/item/armortrim/ArmorTrim;m_266563_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/RegistryAccess;Ljava/util/List;)V"
+      },
+      "com/bawnorton/allthetrims/mixin/client/BakedModelManagerMixin": {
+        "Lnet/minecraft/resource/ResourceFinder;findResources(Lnet/minecraft/resource/ResourceManager;)Ljava/util/Map;": "Lnet/minecraft/resources/FileToIdConverter;m_247457_(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;",
+        "method_45895(Lnet/minecraft/resource/ResourceManager;)Ljava/util/Map;": "Lnet/minecraft/client/resources/model/ModelManager;m_246360_(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/ModelOverrideListMixin": {
+        "Lnet/minecraft/client/render/model/json/ModelOverrideList$BakedOverride;test([F)Z": "Lnet/minecraft/client/renderer/block/model/ItemOverrides$BakedOverride;m_173485_([F)Z",
+        "Lnet/minecraft/client/render/model/json/ModelOverrideList$InlinedCondition;<init>(IF)V": "Lnet/minecraft/client/renderer/block/model/ItemOverrides$PropertyMatcher;<init>(IF)V",
+        "apply": "Lnet/minecraft/client/renderer/block/model/ItemOverrides;m_173464_(Lnet/minecraft/client/resources/model/BakedModel;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/world/entity/LivingEntity;I)Lnet/minecraft/client/resources/model/BakedModel;",
+        "method_33696": "Lnet/minecraft/client/renderer/block/model/ItemOverrides;m_173475_(Lit/unimi/dsi/fastutil/objects/Object2IntMap;Lnet/minecraft/client/renderer/block/model/ItemOverride$Predicate;)Lnet/minecraft/client/renderer/block/model/ItemOverrides$PropertyMatcher;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/ModelOverrideListMixin$InlinedConditionMixin": {
+        "<init>": "Lnet/minecraft/client/renderer/block/model/ItemOverrides$PropertyMatcher;<init>(IF)V"
+      },
+      "com/bawnorton/allthetrims/mixin/client/ModelOverrideMixin$ConditionMixin": {
+        "<init>": "Lnet/minecraft/client/renderer/block/model/ItemOverride$Predicate;<init>(Lnet/minecraft/resources/ResourceLocation;F)V"
+      },
+      "com/bawnorton/allthetrims/mixin/client/ModelOverrideMixin$DeserializerMixin": {
+        "Lnet/minecraft/util/JsonHelper;asFloat(Lcom/google/gson/JsonElement;Ljava/lang/String;)F": "Lnet/minecraft/util/GsonHelper;m_13888_(Lcom/google/gson/JsonElement;Ljava/lang/String;)F",
+        "deserializeMinPropertyValues": "Lnet/minecraft/client/renderer/block/model/ItemOverride$Deserializer;m_173450_(Lcom/google/gson/JsonObject;)Ljava/util/List;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/NamespaceResourceManagerMixin": {
+        "getAllResources": "Lnet/minecraft/server/packs/resources/FallbackResourceManager;m_213829_(Lnet/minecraft/resources/ResourceLocation;)Ljava/util/List;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/PalettedPermutationsAtlasSourceMixin": {
+        "Lnet/minecraft/resource/ResourceManager;getResource(Lnet/minecraft/util/Identifier;)Ljava/util/Optional;": "Lnet/minecraft/server/packs/resources/ResourceManager;m_213713_(Lnet/minecraft/resources/ResourceLocation;)Ljava/util/Optional;",
+        "load": "Lnet/minecraft/client/renderer/texture/atlas/sources/PalettedPermutations;m_260891_(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/client/renderer/texture/atlas/SpriteSource$Output;)V",
+        "method_48486": "Lnet/minecraft/client/renderer/texture/atlas/sources/PalettedPermutations;m_266592_(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/ResourceLocation;)[I",
+        "method_48487": "Lnet/minecraft/client/renderer/texture/atlas/sources/PalettedPermutations;m_266460_(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/compat/emi/VanillaPluginMixin": {
+        "Ldev/emi/emi/VanillaPlugin;addRecipeSafe(Ldev/emi/emi/api/EmiRegistry;Ljava/util/function/Supplier;Lnet/minecraft/recipe/Recipe;)V": "Ldev/emi/emi/VanillaPlugin;addRecipeSafe(Ldev/emi/emi/api/EmiRegistry;Ljava/util/function/Supplier;Lnet/minecraft/world/item/crafting/Recipe;)V",
+        "net/minecraft/recipe/RecipeType.SMITHING:Lnet/minecraft/recipe/RecipeType;": "Lnet/minecraft/world/item/crafting/RecipeType;f_44113_:Lnet/minecraft/world/item/crafting/RecipeType;"
+      },
+      "com/bawnorton/allthetrims/mixin/client/compat/immersivearmors/LayerPieceMixin": {
+        "renderTrim": "Limmersive_armors/client/render/entity/piece/LayerPiece;renderTrim(Lnet/minecraft/world/item/ArmorMaterial;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/world/item/armortrim/ArmorTrim;Lnet/minecraft/client/model/HumanoidModel;Z)V"
+      },
+      "com/bawnorton/allthetrims/mixin/client/compat/jei/SmithingRecipeCategoryMixin": {
+        "isHandled(Lnet/minecraft/recipe/SmithingRecipe;)Z": "Lmezz/jei/library/plugins/vanilla/anvil/SmithingRecipeCategory;isHandled(Lnet/minecraft/world/item/crafting/SmithingRecipe;)Z"
+      }
+    }
+  }
+}
