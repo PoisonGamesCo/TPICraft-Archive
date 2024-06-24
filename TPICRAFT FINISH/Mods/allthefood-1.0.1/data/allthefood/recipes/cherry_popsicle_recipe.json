@@ -1,0 +1,36 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:fruits/cherry"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+       "tag": "forge:fruits/cherry"
+    }
+  },
+    "result": {
+        "nbt": "{display:{Name:'[{\"text\":\"Cherry Popsicle\",\"italic\":false}]'}}",
+        "item": "allthefood:berry_popsicle",
+        "type": "minecraft:item_nbt"
+    }
+}

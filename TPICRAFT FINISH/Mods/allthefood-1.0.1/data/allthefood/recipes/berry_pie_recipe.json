@@ -1,0 +1,32 @@
+{
+    "conditions": [
+        {
+                "type": "forge:tag_empty",
+                "tag": "forge:dough/wheat"
+        }
+    ], 
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:sweet_berries"
+    },
+    "b": {
+      "item": "minecraft:egg"
+    },
+    "c": {
+      "item": "minecraft:wheat"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "allthefood:berry_pie",
+    "count": 1
+  }
+}

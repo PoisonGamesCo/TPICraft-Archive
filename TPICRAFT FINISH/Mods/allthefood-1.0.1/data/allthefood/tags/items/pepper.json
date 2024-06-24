@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:peppers/chilipepper",
+    "#forge:vegetables/chilipepper",
+    "#forge:peppers",
+    "#forge:crops/chilipepper"
+  ]
+}

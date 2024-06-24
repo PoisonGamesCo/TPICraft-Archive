@@ -1,0 +1,38 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:chocolate"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+      "tag": "forge:waffle_cones"
+    },
+    "d": {
+      "tag": "forge:chocolate"
+    },
+    "e": {
+      "tag": "allthefood:milk"
+    }
+  },
+  "result": {
+    "item": "allthefood:chocolate_ice_cream",
+    "count": 1
+  }
+}

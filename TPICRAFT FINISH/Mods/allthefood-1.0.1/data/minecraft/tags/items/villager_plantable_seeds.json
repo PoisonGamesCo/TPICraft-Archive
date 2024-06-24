@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "allthefood:pineapple_seeds",
+    "allthefood:fig_seeds",
+	"allthefood:tomato_seeds",
+	"allthefood:strawberry_seeds"
+  ]
+}

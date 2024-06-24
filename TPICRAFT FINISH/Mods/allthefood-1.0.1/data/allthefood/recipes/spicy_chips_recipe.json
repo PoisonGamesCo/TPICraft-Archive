@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:potato_chips"
+    },
+    "b": {
+      "tag": "allthefood:pepper"
+    }
+  },
+  "result": {
+    "item": "allthefood:spicy_chips",
+    "count": 2
+  }
+}

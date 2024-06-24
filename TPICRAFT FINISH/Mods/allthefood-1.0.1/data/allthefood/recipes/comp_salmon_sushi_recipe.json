@@ -1,0 +1,32 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:rice"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:rice"
+    },
+    "b": {
+      "item": "minecraft:dried_kelp"
+    },
+    "c": {
+      "item": "minecraft:salmon"
+    }
+  },
+  "result": {
+    "item": "allthefood:salmon_sushi_roll",
+    "count": 1
+  }
+}

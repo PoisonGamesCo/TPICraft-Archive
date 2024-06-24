@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "allthefood:honeydews"
+    },
+    {
+      "tag": "allthefood:cantaloupes"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "tag": "forge:rods/wooden"
+    }
+  ],
+  "result": {
+    "item": "allthefood:melon_skewer",
+    "count": 1
+  }
+}

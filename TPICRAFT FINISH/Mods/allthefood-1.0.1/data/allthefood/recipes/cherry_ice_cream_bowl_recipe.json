@@ -1,0 +1,39 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:fruits/cherry"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dce"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+       "tag": "forge:fruits/cherry"
+    },
+    "d": {
+      "item": "allthefood:glass_bowl"
+    },
+    "e": {
+      "tag": "allthefood:milk"
+    }
+  },
+    "result": {
+        "nbt": "{display:{Name:'[{\"text\":\"Cherry Ice Cream Bowl\",\"italic\":false}]'}}",
+        "item": "allthefood:berry_ice_cream_bowl",
+        "type": "minecraft:item_nbt"
+    }
+}

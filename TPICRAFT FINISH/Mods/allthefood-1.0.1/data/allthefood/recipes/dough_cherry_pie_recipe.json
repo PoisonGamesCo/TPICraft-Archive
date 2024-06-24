@@ -1,0 +1,43 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:fruits/cherry"
+            }
+        },
+		{
+		    "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:dough/wheat"
+			}
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/cherry"
+    },
+    "b": {
+      "item": "minecraft:egg"
+    },
+    "c": {
+      "tag": "forge:dough/wheat"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    }
+  },
+    "result": {
+        "nbt": "{display:{Name:'[{\"text\":\"Cherry Pie\",\"italic\":false}]'}}",
+        "item": "allthefood:berry_pie",
+        "type": "minecraft:item_nbt"
+    }
+}

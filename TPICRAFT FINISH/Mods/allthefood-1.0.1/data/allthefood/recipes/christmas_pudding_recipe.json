@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "tag": "allthefood:milk"
+    },
+    "c": {
+      "tag": "forge:sweet_berries"
+    },
+    "d": {
+      "tag": "forge:figs"
+    },
+    "e": {
+      "item": "minecraft:wheat"
+    },
+    "f": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "allthefood:christmas_pudding",
+    "count": 1
+  }
+}

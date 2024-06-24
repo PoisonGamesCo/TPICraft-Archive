@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:leaves"
+    },
+    "b": {
+      "tag": "forge:cheese"
+    },
+    "c": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "d": {
+      "tag": "forge:crops/tomato"
+    },
+    "e": {
+      "tag": "forge:bread"
+    }
+  },
+  "result": {
+    "item": "allthefood:chicken_burger",
+    "count": 1
+  }
+}

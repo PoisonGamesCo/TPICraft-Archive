@@ -1,0 +1,39 @@
+{
+    "conditions": [
+        {
+            "type": "forge:not",
+            "value": {
+                "type": "forge:tag_empty",
+                "tag": "forge:crops/blackberry"
+            }
+        }
+    ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dce"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "item": "minecraft:packed_ice"
+    },
+    "c": {
+       "tag": "forge:crops/blackberry"
+    },
+    "d": {
+      "tag": "forge:waffle_cones"
+    },
+    "e": {
+      "tag": "allthefood:milk"
+    }
+  },
+    "result": {
+        "nbt": "{display:{Name:'[{\"text\":\"Blackberry Ice Cream\",\"italic\":false}]'}}",
+        "item": "allthefood:berry_ice_cream",
+        "type": "minecraft:item_nbt"
+    }
+}

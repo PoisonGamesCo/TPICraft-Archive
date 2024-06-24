@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "allthefood:pineapple_crop",
+        "allthefood:fig_crop",
+        "allthefood:tomato_crop",
+        "allthefood:strawberry_crop"
+    ]
+}

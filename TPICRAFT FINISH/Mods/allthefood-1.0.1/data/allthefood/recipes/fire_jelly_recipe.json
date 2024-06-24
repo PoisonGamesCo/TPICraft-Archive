@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:water"
+    },
+    "b": {
+      "item": "allthefood:gelatin_sheet"
+    },
+    "c": {
+      "item": "minecraft:blaze_powder"
+    },
+    "d": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "allthefood:fire_jelly",
+    "count": 1
+  }
+}
