@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "tag": "forge:dusts/redstone"
+    },
+    "G": {
+      "item": "ae2:quartz_glass"
+    },
+    "I": {
+      "tag": "forge:ingots/insulating_resin"
+    },
+    "X": {
+      "item": "appflux:core_1k"
+    }
+  },
+  "pattern": [
+    "GDG",
+    "DXD",
+    "III"
+  ],
+  "result": {
+    "item": "appflux:fe_1k_cell"
+  },
+  "show_notification": true
+}

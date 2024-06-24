@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+Implementation-Title: AppliedFlux-1.20.1
+MixinConfigs: mixins.appflux.json
+Implementation-Version: 1.20-1.1.8-forge
+Specification-Vendor: GlodBlock
+Specification-Title: appflux
+Implementation-Timestamp: 2024-06-02T20:35:49+0800
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+Specification-Version: 1
+Implementation-Vendor: GlodBlock
+
