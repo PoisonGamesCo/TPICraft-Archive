@@ -1,0 +1,296 @@
+{
+  "mappings": {
+    "earth/terrarium/ad_astra/mixin/ArmorDyeRecipeMixin": {
+      "matches*": "Lnet/minecraft/world/item/crafting/ArmorDyeRecipe;m_5818_(Lnet/minecraft/world/inventory/CraftingContainer;Lnet/minecraft/world/level/Level;)Z"
+    },
+    "earth/terrarium/ad_astra/mixin/BlockMixin": {
+      "setPlacedBy": "Lnet/minecraft/world/level/block/Block;m_6402_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/BucketItemMixin": {
+      "Lnet/minecraft/world/item/BucketItem;emptyContents(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z": "Lnet/minecraft/world/item/BucketItem;m_142073_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z",
+      "emptyContents": "Lnet/minecraft/world/item/BucketItem;m_142073_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z",
+      "use": "Lnet/minecraft/world/item/BucketItem;m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;"
+    },
+    "earth/terrarium/ad_astra/mixin/EntityInvoker": {
+      "isInRain": "m_20285_()Z"
+    },
+    "earth/terrarium/ad_astra/mixin/EntityMixin": {
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/FireworkRocketItemMixin": {
+      "use": "Lnet/minecraft/world/item/FireworkRocketItem;m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;"
+    },
+    "earth/terrarium/ad_astra/mixin/IceBlockMixin": {
+      "melt": "Lnet/minecraft/world/level/block/IceBlock;m_54168_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V",
+      "playerDestroy": "Lnet/minecraft/world/level/block/IceBlock;m_6240_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/LiquidBlockMixin": {
+      "onPlace": "Lnet/minecraft/world/level/block/LiquidBlock;m_6807_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V"
+    },
+    "earth/terrarium/ad_astra/mixin/LivingEntityMixin": {
+      "causeFallDamage": "Lnet/minecraft/world/entity/LivingEntity;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/MobMixin": {
+      "checkSpawnObstruction": "Lnet/minecraft/world/entity/Mob;m_6914_(Lnet/minecraft/world/level/LevelReader;)Z"
+    },
+    "earth/terrarium/ad_astra/mixin/PaintingInvoker": {
+      "setVariant": "m_28464_(Lnet/minecraft/core/Holder;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/PiglinSpecificSensorMixin": {
+      "doTick": "Lnet/minecraft/world/entity/ai/sensing/PiglinSpecificSensor;m_5578_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V",
+      "findNearestRepellent": "Lnet/minecraft/world/entity/ai/sensing/PiglinSpecificSensor;m_26734_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/Optional;"
+    },
+    "earth/terrarium/ad_astra/mixin/PlayerMixin": {
+      "hurt": "Lnet/minecraft/world/entity/player/Player;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/ServerGamePacketListenerImplMixin": {
+      "tick": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9933_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/ServerLevelMixin": {
+      "<init>": "Lnet/minecraft/server/level/ServerLevel;<init>(Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/world/level/storage/ServerLevelData;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/dimension/LevelStem;Lnet/minecraft/server/level/progress/ChunkProgressListener;ZJLjava/util/List;ZLnet/minecraft/world/RandomSequences;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/WoodTypeInvoker": {
+      "<init>": "<init>",
+      "register": "m_61844_(Lnet/minecraft/world/level/block/state/properties/WoodType;)Lnet/minecraft/world/level/block/state/properties/WoodType;"
+    },
+    "earth/terrarium/ad_astra/mixin/WorldGenSettingsMixin": {
+      "<init>(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/world/level/levelgen/WorldDimensions;)V": "Lnet/minecraft/world/level/levelgen/WorldGenSettings;<init>(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/world/level/levelgen/WorldDimensions;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/CameraMixin": {
+      "setup": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/EntityRendererMixin": {
+      "shouldRender": "Lnet/minecraft/client/renderer/entity/EntityRenderer;m_5523_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z"
+    },
+    "earth/terrarium/ad_astra/mixin/client/GameRendererMixin": {
+      "bobView": "Lnet/minecraft/client/renderer/GameRenderer;m_109138_(Lcom/mojang/blaze3d/vertex/PoseStack;F)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/HumanoidModelMixin": {
+      "setupAnim*": "Lnet/minecraft/client/model/HumanoidModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/ItemInHandRendererMixin": {
+      "renderItem*": "Lnet/minecraft/client/renderer/ItemInHandRenderer;m_269530_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/KeyboardHandlerMixin": {
+      "keyPress": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/LevelRendererAccessor": {
+      "buildClouds": "m_234261_(Lcom/mojang/blaze3d/vertex/BufferBuilder;DDDLnet/minecraft/world/phys/Vec3;)Lcom/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer;",
+      "cloudBuffer": "f_109475_:Lcom/mojang/blaze3d/vertex/VertexBuffer;",
+      "generateClouds": "f_109474_:Z",
+      "prevCloudColor": "f_109433_:Lnet/minecraft/world/phys/Vec3;",
+      "prevCloudX": "f_109430_:I",
+      "prevCloudY": "f_109431_:I",
+      "prevCloudZ": "f_109432_:I",
+      "prevCloudsType": "f_109435_:Lnet/minecraft/client/CloudStatus;",
+      "rainSizeX": "f_109451_:[F",
+      "rainSizeZ": "f_109452_:[F",
+      "skyBuffer": "f_109472_:Lcom/mojang/blaze3d/vertex/VertexBuffer;",
+      "ticks": "f_109477_:I"
+    },
+    "earth/terrarium/ad_astra/mixin/client/LevelRendererMixin": {
+      "levelEvent": "Lnet/minecraft/client/renderer/LevelRenderer;m_234304_(ILnet/minecraft/core/BlockPos;I)V",
+      "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/LocalPlayerMixin": {
+      "<init>": "Lnet/minecraft/client/player/LocalPlayer;<init>(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/multiplayer/ClientPacketListener;Lnet/minecraft/stats/StatsCounter;Lnet/minecraft/client/ClientRecipeBook;ZZ)V",
+      "tick": "Lnet/minecraft/client/player/LocalPlayer;m_8119_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/PlayerRendererMixin": {
+      "renderLeftHand": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117813_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;)V",
+      "renderRightHand": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117770_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/client/SheetsMixin": {
+      "chooseMaterial(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/block/state/properties/ChestType;Z)Lnet/minecraft/client/resources/model/Material;": "Lnet/minecraft/client/renderer/Sheets;m_110767_(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/block/state/properties/ChestType;Z)Lnet/minecraft/client/resources/model/Material;"
+    },
+    "earth/terrarium/ad_astra/mixin/client/SoundManagerMixin": {
+      "play(Lnet/minecraft/client/resources/sounds/SoundInstance;)V": "Lnet/minecraft/client/sounds/SoundManager;m_120367_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V",
+      "playDelayed(Lnet/minecraft/client/resources/sounds/SoundInstance;I)V": "Lnet/minecraft/client/sounds/SoundManager;m_120369_(Lnet/minecraft/client/resources/sounds/SoundInstance;I)V"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/AbstractArrowMixin": {
+      "tick": "Lnet/minecraft/world/entity/projectile/AbstractArrow;m_8119_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/BoatMixin": {
+      "floatBoat": "Lnet/minecraft/world/entity/vehicle/Boat;m_38395_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/CommonGravityEntityMixin": {
+      "tick": "m_8119_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/FishingHookMixin": {
+      "tick": "Lnet/minecraft/world/entity/projectile/FishingHook;m_8119_()V"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/LivingEntityGravityMixin": {
+      "causeFallDamage": "Lnet/minecraft/world/entity/LivingEntity;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z",
+      "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/ThrowableProjectileMixin": {
+      "getGravity": "Lnet/minecraft/world/entity/projectile/ThrowableProjectile;m_7139_()F"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/ThrownExperienceBottleMixin": {
+      "getGravity": "Lnet/minecraft/world/entity/projectile/ThrownExperienceBottle;m_7139_()F"
+    },
+    "earth/terrarium/ad_astra/mixin/gravity/ThrownPotionMixin": {
+      "getGravity": "Lnet/minecraft/world/entity/projectile/ThrownPotion;m_7139_()F"
+    },
+    "earth/terrarium/ad_astra/mixin/oxygen/BlockItemMixin": {
+      "place*": "Lnet/minecraft/world/item/BlockItem;m_40576_(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "earth/terrarium/ad_astra/mixin/oxygen/FireBlockMixin": {
+      "onPlace": "Lnet/minecraft/world/level/block/FireBlock;m_6807_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V"
+    },
+    "earth/terrarium/ad_astra/mixin/oxygen/FlintAndSteelItemMixin": {
+      "useOn": "Lnet/minecraft/world/item/FlintAndSteelItem;m_6225_(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;"
+    }
+  },
+  "data": {
+    "searge": {
+      "earth/terrarium/ad_astra/mixin/ArmorDyeRecipeMixin": {
+        "matches*": "Lnet/minecraft/world/item/crafting/ArmorDyeRecipe;m_5818_(Lnet/minecraft/world/inventory/CraftingContainer;Lnet/minecraft/world/level/Level;)Z"
+      },
+      "earth/terrarium/ad_astra/mixin/BlockMixin": {
+        "setPlacedBy": "Lnet/minecraft/world/level/block/Block;m_6402_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/BucketItemMixin": {
+        "Lnet/minecraft/world/item/BucketItem;emptyContents(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z": "Lnet/minecraft/world/item/BucketItem;m_142073_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z",
+        "emptyContents": "Lnet/minecraft/world/item/BucketItem;m_142073_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z",
+        "use": "Lnet/minecraft/world/item/BucketItem;m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;"
+      },
+      "earth/terrarium/ad_astra/mixin/EntityInvoker": {
+        "isInRain": "m_20285_()Z"
+      },
+      "earth/terrarium/ad_astra/mixin/EntityMixin": {
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/FireworkRocketItemMixin": {
+        "use": "Lnet/minecraft/world/item/FireworkRocketItem;m_7203_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;"
+      },
+      "earth/terrarium/ad_astra/mixin/IceBlockMixin": {
+        "melt": "Lnet/minecraft/world/level/block/IceBlock;m_54168_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V",
+        "playerDestroy": "Lnet/minecraft/world/level/block/IceBlock;m_6240_(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/item/ItemStack;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/LiquidBlockMixin": {
+        "onPlace": "Lnet/minecraft/world/level/block/LiquidBlock;m_6807_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V"
+      },
+      "earth/terrarium/ad_astra/mixin/LivingEntityMixin": {
+        "causeFallDamage": "Lnet/minecraft/world/entity/LivingEntity;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/MobMixin": {
+        "checkSpawnObstruction": "Lnet/minecraft/world/entity/Mob;m_6914_(Lnet/minecraft/world/level/LevelReader;)Z"
+      },
+      "earth/terrarium/ad_astra/mixin/PaintingInvoker": {
+        "setVariant": "m_28464_(Lnet/minecraft/core/Holder;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/PiglinSpecificSensorMixin": {
+        "doTick": "Lnet/minecraft/world/entity/ai/sensing/PiglinSpecificSensor;m_5578_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)V",
+        "findNearestRepellent": "Lnet/minecraft/world/entity/ai/sensing/PiglinSpecificSensor;m_26734_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/Optional;"
+      },
+      "earth/terrarium/ad_astra/mixin/PlayerMixin": {
+        "hurt": "Lnet/minecraft/world/entity/player/Player;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/ServerGamePacketListenerImplMixin": {
+        "tick": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9933_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/ServerLevelMixin": {
+        "<init>": "Lnet/minecraft/server/level/ServerLevel;<init>(Lnet/minecraft/server/MinecraftServer;Ljava/util/concurrent/Executor;Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/world/level/storage/ServerLevelData;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/level/dimension/LevelStem;Lnet/minecraft/server/level/progress/ChunkProgressListener;ZJLjava/util/List;ZLnet/minecraft/world/RandomSequences;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/WoodTypeInvoker": {
+        "<init>": "<init>",
+        "register": "m_61844_(Lnet/minecraft/world/level/block/state/properties/WoodType;)Lnet/minecraft/world/level/block/state/properties/WoodType;"
+      },
+      "earth/terrarium/ad_astra/mixin/WorldGenSettingsMixin": {
+        "<init>(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/world/level/levelgen/WorldDimensions;)V": "Lnet/minecraft/world/level/levelgen/WorldGenSettings;<init>(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/world/level/levelgen/WorldDimensions;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/CameraMixin": {
+        "setup": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/EntityRendererMixin": {
+        "shouldRender": "Lnet/minecraft/client/renderer/entity/EntityRenderer;m_5523_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/renderer/culling/Frustum;DDD)Z"
+      },
+      "earth/terrarium/ad_astra/mixin/client/GameRendererMixin": {
+        "bobView": "Lnet/minecraft/client/renderer/GameRenderer;m_109138_(Lcom/mojang/blaze3d/vertex/PoseStack;F)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/HumanoidModelMixin": {
+        "setupAnim*": "Lnet/minecraft/client/model/HumanoidModel;m_6973_(Lnet/minecraft/world/entity/LivingEntity;FFFFF)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/ItemInHandRendererMixin": {
+        "renderItem*": "Lnet/minecraft/client/renderer/ItemInHandRenderer;m_269530_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/KeyboardHandlerMixin": {
+        "keyPress": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/LevelRendererAccessor": {
+        "buildClouds": "m_234261_(Lcom/mojang/blaze3d/vertex/BufferBuilder;DDDLnet/minecraft/world/phys/Vec3;)Lcom/mojang/blaze3d/vertex/BufferBuilder$RenderedBuffer;",
+        "cloudBuffer": "f_109475_:Lcom/mojang/blaze3d/vertex/VertexBuffer;",
+        "generateClouds": "f_109474_:Z",
+        "prevCloudColor": "f_109433_:Lnet/minecraft/world/phys/Vec3;",
+        "prevCloudX": "f_109430_:I",
+        "prevCloudY": "f_109431_:I",
+        "prevCloudZ": "f_109432_:I",
+        "prevCloudsType": "f_109435_:Lnet/minecraft/client/CloudStatus;",
+        "rainSizeX": "f_109451_:[F",
+        "rainSizeZ": "f_109452_:[F",
+        "skyBuffer": "f_109472_:Lcom/mojang/blaze3d/vertex/VertexBuffer;",
+        "ticks": "f_109477_:I"
+      },
+      "earth/terrarium/ad_astra/mixin/client/LevelRendererMixin": {
+        "levelEvent": "Lnet/minecraft/client/renderer/LevelRenderer;m_234304_(ILnet/minecraft/core/BlockPos;I)V",
+        "tickRain": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/LocalPlayerMixin": {
+        "<init>": "Lnet/minecraft/client/player/LocalPlayer;<init>(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/multiplayer/ClientPacketListener;Lnet/minecraft/stats/StatsCounter;Lnet/minecraft/client/ClientRecipeBook;ZZ)V",
+        "tick": "Lnet/minecraft/client/player/LocalPlayer;m_8119_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/PlayerRendererMixin": {
+        "renderLeftHand": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117813_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;)V",
+        "renderRightHand": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_117770_(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;ILnet/minecraft/client/player/AbstractClientPlayer;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/client/SheetsMixin": {
+        "chooseMaterial(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/block/state/properties/ChestType;Z)Lnet/minecraft/client/resources/model/Material;": "Lnet/minecraft/client/renderer/Sheets;m_110767_(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/block/state/properties/ChestType;Z)Lnet/minecraft/client/resources/model/Material;"
+      },
+      "earth/terrarium/ad_astra/mixin/client/SoundManagerMixin": {
+        "play(Lnet/minecraft/client/resources/sounds/SoundInstance;)V": "Lnet/minecraft/client/sounds/SoundManager;m_120367_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V",
+        "playDelayed(Lnet/minecraft/client/resources/sounds/SoundInstance;I)V": "Lnet/minecraft/client/sounds/SoundManager;m_120369_(Lnet/minecraft/client/resources/sounds/SoundInstance;I)V"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/AbstractArrowMixin": {
+        "tick": "Lnet/minecraft/world/entity/projectile/AbstractArrow;m_8119_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/BoatMixin": {
+        "floatBoat": "Lnet/minecraft/world/entity/vehicle/Boat;m_38395_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/CommonGravityEntityMixin": {
+        "tick": "m_8119_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/FishingHookMixin": {
+        "tick": "Lnet/minecraft/world/entity/projectile/FishingHook;m_8119_()V"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/LivingEntityGravityMixin": {
+        "causeFallDamage": "Lnet/minecraft/world/entity/LivingEntity;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z",
+        "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/ThrowableProjectileMixin": {
+        "getGravity": "Lnet/minecraft/world/entity/projectile/ThrowableProjectile;m_7139_()F"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/ThrownExperienceBottleMixin": {
+        "getGravity": "Lnet/minecraft/world/entity/projectile/ThrownExperienceBottle;m_7139_()F"
+      },
+      "earth/terrarium/ad_astra/mixin/gravity/ThrownPotionMixin": {
+        "getGravity": "Lnet/minecraft/world/entity/projectile/ThrownPotion;m_7139_()F"
+      },
+      "earth/terrarium/ad_astra/mixin/oxygen/BlockItemMixin": {
+        "place*": "Lnet/minecraft/world/item/BlockItem;m_40576_(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "earth/terrarium/ad_astra/mixin/oxygen/FireBlockMixin": {
+        "onPlace": "Lnet/minecraft/world/level/block/FireBlock;m_6807_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V"
+      },
+      "earth/terrarium/ad_astra/mixin/oxygen/FlintAndSteelItemMixin": {
+        "useOn": "Lnet/minecraft/world/item/FlintAndSteelItem;m_6225_(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;"
+      }
+    }
+  }
+}
