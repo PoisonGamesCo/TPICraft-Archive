@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+MixinConfigs: allthetrims-common.mixins.json,allthetrims.mixins.json
+
