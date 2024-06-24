@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "allthefood:block/mango_leaves_with_mangos",
-    "particle": "allthefood:block/mango_leaves_with_mangos"
-  },
-  "render_type": "cutout_mipped"
-}

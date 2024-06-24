@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: ad_extendra
-Specification-Vendor: Teddy0008
-Specification-Version: 1
-Implementation-Title: Ad Extendra
-Implementation-Version: 0.1.1
-Implementation-Vendor: Teddy0008
-Implementation-Timestamp: 2024-01-21T10:14:54+0100
-

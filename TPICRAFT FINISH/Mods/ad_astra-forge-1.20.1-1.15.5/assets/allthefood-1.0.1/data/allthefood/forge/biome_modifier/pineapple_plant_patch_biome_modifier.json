@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#is_jungle",
-  "features": "allthefood:pineapple_plant_patch",
-  "step": "vegetal_decoration"
-}

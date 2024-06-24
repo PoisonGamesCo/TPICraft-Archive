@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: Applied Mekanistics
-Specification-Vendor: ramidzkh
-Specification-Version: 1.4.2
-Implementation-Title: Applied-Mekanistics
-Implementation-Version: 1.4.2
-Implementation-Vendor: ramidzkh
-Implementation-Timestamp: 2023-11-05T11:43:39+0000
-

@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "minecraft:mangrove_swamp",
-  "features": "allthefood:mango_tree",
-  "step": "vegetal_decoration"
-}

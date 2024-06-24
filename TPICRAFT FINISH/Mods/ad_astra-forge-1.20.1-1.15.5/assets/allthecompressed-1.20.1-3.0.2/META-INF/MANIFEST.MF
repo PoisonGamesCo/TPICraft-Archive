@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: allthecompressed
-Specification-Vendor: build
-Specification-Version: 1
-Implementation-Title: allthecompressed
-Implementation-Version: 3.0.2
-Implementation-Vendor: pdiddy973
-
