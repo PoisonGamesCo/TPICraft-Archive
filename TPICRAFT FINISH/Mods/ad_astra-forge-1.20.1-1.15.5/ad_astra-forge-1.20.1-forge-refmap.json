@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "earth/terrarium/ad_astra/mixin/forge/DimensionSpecialEffectsMixin": {
+      "forType": "Lnet/minecraft/client/renderer/DimensionSpecialEffects;m_108876_(Lnet/minecraft/world/level/dimension/DimensionType;)Lnet/minecraft/client/renderer/DimensionSpecialEffects;"
+    },
+    "earth/terrarium/ad_astra/mixin/forge/BucketItemMixin": {
+      "Lnet/minecraft/world/item/BucketItem;emptyContents(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z": "Lnet/minecraft/world/item/BucketItem;m_142073_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z"
+    },
+    "earth/terrarium/ad_astra/mixin/forge/AxeItemAccessor": {
+      "STRIPPABLES": "f_150683_:Ljava/util/Map;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "earth/terrarium/ad_astra/mixin/forge/DimensionSpecialEffectsMixin": {
+        "forType": "Lnet/minecraft/client/renderer/DimensionSpecialEffects;m_108876_(Lnet/minecraft/world/level/dimension/DimensionType;)Lnet/minecraft/client/renderer/DimensionSpecialEffects;"
+      },
+      "earth/terrarium/ad_astra/mixin/forge/BucketItemMixin": {
+        "Lnet/minecraft/world/item/BucketItem;emptyContents(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z": "Lnet/minecraft/world/item/BucketItem;m_142073_(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;)Z"
+      },
+      "earth/terrarium/ad_astra/mixin/forge/AxeItemAccessor": {
+        "STRIPPABLES": "f_150683_:Ljava/util/Map;"
+      }
+    }
+  }
+}
