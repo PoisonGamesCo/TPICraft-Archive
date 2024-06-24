@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "package": "appeng.mixins",
+  "refmap": "ae2.mixins.refmap.json",
+  "compatibilityLevel": "JAVA_11",
+  "plugin": "appeng.mixins.ConfigPlugin",
+  "mixins": [
+    "chunkloading.ChunkMapMixin",
+    "spatial.MinecraftServerMixin",
+    "AnvilMenuMixin",
+    "EarlyStartupMixin",
+    "EnchantmentHelperMixin",
+    "ItemEntityMixin",
+    "tests.StructureUtilsMixin",
+    "StructureTemplateMixin",
+    "UnbreakingMixin"
+  ],
+  "client": [
+    "unlitquad.ModelManagerMixin",
+    "unlitquad.BlockModelMixin",
+    "unlitquad.BlockPartFaceDeserializerMixin",
+    "AbstractContainerScreenMixin",
+    "GuiGraphicsMixin",
+    "WrappedGenericStackTooltipModIdMixin",
+    "ResizableSlotHighlightMixin",
+    "PickColorMixin",
+    "TextureAtlasMixin",
+    "PonderWorldMixin",
+    "ModelBakeryMixin",
+    "VariantDeserializerMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

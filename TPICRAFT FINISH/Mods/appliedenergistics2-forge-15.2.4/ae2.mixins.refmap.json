@@ -1,0 +1,122 @@
+{
+  "mappings": {
+    "appeng/mixins/unlitquad/BlockModelMixin": {
+      "bakeFace": "Lnet/minecraft/client/renderer/block/model/BlockModel;m_111437_(Lnet/minecraft/client/renderer/block/model/BlockElement;Lnet/minecraft/client/renderer/block/model/BlockElementFace;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;Lnet/minecraft/core/Direction;Lnet/minecraft/client/resources/model/ModelState;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/block/model/BakedQuad;"
+    },
+    "appeng/mixins/chunkloading/ChunkMapMixin": {
+      "anyPlayerCloseEnoughForSpawning": "Lnet/minecraft/server/level/ChunkMap;m_183879_(Lnet/minecraft/world/level/ChunkPos;)Z"
+    },
+    "appeng/mixins/TextureAtlasMixin": {
+      "upload": "Lnet/minecraft/client/renderer/texture/TextureAtlas;m_247065_(Lnet/minecraft/client/renderer/texture/SpriteLoader$Preparations;)V"
+    },
+    "appeng/mixins/ResizableSlotHighlightMixin": {
+      "renderSlotHighlight": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_280359_(Lnet/minecraft/client/gui/GuiGraphics;III)V"
+    },
+    "appeng/mixins/WrappedGenericStackTooltipModIdMixin": {
+      "getTooltipFromItem": "Lnet/minecraft/client/gui/screens/Screen;m_280152_(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;"
+    },
+    "appeng/mixins/StructureTemplateMixin": {
+      "fillFromWorld": "Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;m_163802_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Vec3i;ZLnet/minecraft/world/level/block/Block;)V"
+    },
+    "appeng/mixins/PickColorMixin": {
+      "pickBlock": "Lnet/minecraft/client/Minecraft;m_91280_()V"
+    },
+    "appeng/mixins/EarlyStartupMixin": {
+      "bootStrap": "Lnet/minecraft/server/Bootstrap;m_135870_()V"
+    },
+    "appeng/mixins/ItemEntityMixin": {
+      "tick": "Lnet/minecraft/world/entity/item/ItemEntity;m_8119_()V",
+      "hurt": "Lnet/minecraft/world/entity/item/ItemEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+    },
+    "appeng/mixins/EnchantmentHelperMixin": {
+      "getItemEnchantmentLevel": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+    },
+    "appeng/mixins/UnbreakingMixin": {
+      "canEnchant": "Lnet/minecraft/world/item/enchantment/DigDurabilityEnchantment;m_6081_(Lnet/minecraft/world/item/ItemStack;)Z"
+    },
+    "appeng/mixins/ModelBakeryMixin": {
+      "loadModel": "Lnet/minecraft/client/resources/model/ModelBakery;m_119362_(Lnet/minecraft/resources/ResourceLocation;)V"
+    },
+    "appeng/mixins/AnvilMenuMixin": {
+      "net/minecraft/world/item/ItemStack.isDamageableItem()Z": "Lnet/minecraft/world/item/ItemStack;m_41763_()Z",
+      "createResult": "Lnet/minecraft/world/inventory/AnvilMenu;m_6640_()V"
+    },
+    "appeng/mixins/GuiGraphicsMixin": {
+      "Lnet/minecraft/client/gui/GuiGraphics;renderItem(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;IIII)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280405_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;IIII)V"
+    },
+    "appeng/mixins/spatial/MinecraftServerMixin": {
+      "createLevels": "Lnet/minecraft/server/MinecraftServer;m_129815_(Lnet/minecraft/server/level/progress/ChunkProgressListener;)V"
+    },
+    "appeng/mixins/VariantDeserializerMixin": {
+      "deserialize": "Lnet/minecraft/client/renderer/block/model/Variant$Deserializer;deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/client/renderer/block/model/Variant;"
+    },
+    "appeng/mixins/AbstractContainerScreenMixin": {
+      "renderSlot": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_280092_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/inventory/Slot;)V"
+    },
+    "appeng/mixins/tests/StructureUtilsMixin": {
+      "getStructureTemplate": "Lnet/minecraft/gametest/framework/StructureUtils;m_127880_(Ljava/lang/String;Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;",
+      "createStructureBlock": "Lnet/minecraft/gametest/framework/StructureUtils;m_127890_(Ljava/lang/String;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/server/level/ServerLevel;Z)Lnet/minecraft/world/level/block/entity/StructureBlockEntity;"
+    }
+  },
+  "data": {
+    "searge": {
+      "appeng/mixins/unlitquad/BlockModelMixin": {
+        "bakeFace": "Lnet/minecraft/client/renderer/block/model/BlockModel;m_111437_(Lnet/minecraft/client/renderer/block/model/BlockElement;Lnet/minecraft/client/renderer/block/model/BlockElementFace;Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;Lnet/minecraft/core/Direction;Lnet/minecraft/client/resources/model/ModelState;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/client/renderer/block/model/BakedQuad;"
+      },
+      "appeng/mixins/chunkloading/ChunkMapMixin": {
+        "anyPlayerCloseEnoughForSpawning": "Lnet/minecraft/server/level/ChunkMap;m_183879_(Lnet/minecraft/world/level/ChunkPos;)Z"
+      },
+      "appeng/mixins/TextureAtlasMixin": {
+        "upload": "Lnet/minecraft/client/renderer/texture/TextureAtlas;m_247065_(Lnet/minecraft/client/renderer/texture/SpriteLoader$Preparations;)V"
+      },
+      "appeng/mixins/ResizableSlotHighlightMixin": {
+        "renderSlotHighlight": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_280359_(Lnet/minecraft/client/gui/GuiGraphics;III)V"
+      },
+      "appeng/mixins/WrappedGenericStackTooltipModIdMixin": {
+        "getTooltipFromItem": "Lnet/minecraft/client/gui/screens/Screen;m_280152_(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;"
+      },
+      "appeng/mixins/StructureTemplateMixin": {
+        "fillFromWorld": "Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;m_163802_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Vec3i;ZLnet/minecraft/world/level/block/Block;)V"
+      },
+      "appeng/mixins/PickColorMixin": {
+        "pickBlock": "Lnet/minecraft/client/Minecraft;m_91280_()V"
+      },
+      "appeng/mixins/EarlyStartupMixin": {
+        "bootStrap": "Lnet/minecraft/server/Bootstrap;m_135870_()V"
+      },
+      "appeng/mixins/ItemEntityMixin": {
+        "tick": "Lnet/minecraft/world/entity/item/ItemEntity;m_8119_()V",
+        "hurt": "Lnet/minecraft/world/entity/item/ItemEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+      },
+      "appeng/mixins/EnchantmentHelperMixin": {
+        "getItemEnchantmentLevel": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44843_(Lnet/minecraft/world/item/enchantment/Enchantment;Lnet/minecraft/world/item/ItemStack;)I"
+      },
+      "appeng/mixins/UnbreakingMixin": {
+        "canEnchant": "Lnet/minecraft/world/item/enchantment/DigDurabilityEnchantment;m_6081_(Lnet/minecraft/world/item/ItemStack;)Z"
+      },
+      "appeng/mixins/ModelBakeryMixin": {
+        "loadModel": "Lnet/minecraft/client/resources/model/ModelBakery;m_119362_(Lnet/minecraft/resources/ResourceLocation;)V"
+      },
+      "appeng/mixins/AnvilMenuMixin": {
+        "net/minecraft/world/item/ItemStack.isDamageableItem()Z": "Lnet/minecraft/world/item/ItemStack;m_41763_()Z",
+        "createResult": "Lnet/minecraft/world/inventory/AnvilMenu;m_6640_()V"
+      },
+      "appeng/mixins/GuiGraphicsMixin": {
+        "Lnet/minecraft/client/gui/GuiGraphics;renderItem(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;IIII)V": "Lnet/minecraft/client/gui/GuiGraphics;m_280405_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;IIII)V"
+      },
+      "appeng/mixins/spatial/MinecraftServerMixin": {
+        "createLevels": "Lnet/minecraft/server/MinecraftServer;m_129815_(Lnet/minecraft/server/level/progress/ChunkProgressListener;)V"
+      },
+      "appeng/mixins/VariantDeserializerMixin": {
+        "deserialize": "Lnet/minecraft/client/renderer/block/model/Variant$Deserializer;deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/client/renderer/block/model/Variant;"
+      },
+      "appeng/mixins/AbstractContainerScreenMixin": {
+        "renderSlot": "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;m_280092_(Lnet/minecraft/client/gui/GuiGraphics;Lnet/minecraft/world/inventory/Slot;)V"
+      },
+      "appeng/mixins/tests/StructureUtilsMixin": {
+        "getStructureTemplate": "Lnet/minecraft/gametest/framework/StructureUtils;m_127880_(Ljava/lang/String;Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;",
+        "createStructureBlock": "Lnet/minecraft/gametest/framework/StructureUtils;m_127890_(Ljava/lang/String;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/server/level/ServerLevel;Z)Lnet/minecraft/world/level/block/entity/StructureBlockEntity;"
+      }
+    }
+  }
+}
