@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "TPI CRAFT",
-  "version": "1.20.1-0.02",
+  "version": "1.20.1-0.03",
   "author": "",
   "files": [
     {
@@ -72,6 +72,11 @@
     {
       "projectID": 303278,
       "fileID": 5204918,
+      "required": true
+    },
+    {
+      "projectID": 622737,
+      "fileID": 4834403,
       "required": true
     },
     {
@@ -555,6 +560,11 @@
       "required": true
     },
     {
+      "projectID": 633823,
+      "fileID": 5273070,
+      "required": true
+    },
+    {
       "projectID": 443900,
       "fileID": 5478839,
       "required": true
@@ -740,6 +750,11 @@
       "required": true
     },
     {
+      "projectID": 410811,
+      "fileID": 4896152,
+      "required": true
+    },
+    {
       "projectID": 635042,
       "fileID": 4894852,
       "required": true
@@ -752,6 +767,16 @@
     {
       "projectID": 257356,
       "fileID": 5380330,
+      "required": true
+    },
+    {
+      "projectID": 576589,
+      "fileID": 5350440,
+      "required": true
+    },
+    {
+      "projectID": 314905,
+      "fileID": 4596742,
       "required": true
     },
     {
@@ -797,6 +822,11 @@
     {
       "projectID": 363543,
       "fileID": 5049334,
+      "required": true
+    },
+    {
+      "projectID": 386134,
+      "fileID": 5363345,
       "required": true
     },
     {
@@ -857,6 +887,11 @@
     {
       "projectID": 328085,
       "fileID": 4835191,
+      "required": true
+    },
+    {
+      "projectID": 314906,
+      "fileID": 5378090,
       "required": true
     },
     {
